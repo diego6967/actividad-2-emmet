@@ -1,0 +1,11 @@
+footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #666;
+  }
+  
+  .pie {
+    font-size: 0.9rem;
+  }
