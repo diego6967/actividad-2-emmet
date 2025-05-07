@@ -60,40 +60,21 @@ body {
   
 
   
-  /* Estilos del menú */
-
-
-.menu-toggle {
-  display: none;
-  font-size: 2rem;
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    background-color: #333;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 200px;
-    padding: 1rem;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-
-  .menu-toggle {
-    display: block;
-  }
-}
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .encabezado {
+      font-size: 1.5rem;
+    }
   
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    section img {
+      width: 100%;
+    }
+  }
   /*Fuenta*/
   .comic-relief-regular {
     font-family: "Comic Relief", system-ui;
