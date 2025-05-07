@@ -4,9 +4,9 @@ const nav = `
   <div class="menu-container">
     <button class="menu-btn">Menú</button>
     <ul class="nav-list">
-      <li><a href="index.html"><i class="fa-solid fa-utensils">Inicio</a></i></li>
-      <li><a href="pagina1.html"><i class="fa-solid fa-burger">Postres</a></i>Postres</a></li>
-      <li><a href="pagina2.html"><i class="fa-solid fa-pizza-slice">Comida Salada</a></i></li>
+      <li><a href="index.html"><i class="fa-solid fa-utensils">  Inicio</a></i></li>
+      <li><a href="pagina1.html"><i class="fa-solid fa-burger">  Postres</a></i>Postres</a></li>
+      <li><a href="pagina2.html"><i class="fa-solid fa-pizza-slice">  Comida Salada</a></i></li>
     </ul>
   </div>
 `;
