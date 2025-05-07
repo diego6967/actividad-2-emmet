@@ -36,3 +36,33 @@ nav {
   nav a:hover {
     background-color: #ff5722;
   }
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: none;
+    flex-direction: column;
+    background-color: #ffe0b2;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-list.active {
+    display: flex;
+  }
+  
+  .nav-list li {
+    border-bottom: 1px solid #ffcc80;
+  }
+  
+  .nav-list li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .nav-list li a:hover {
+    background-color: #ffcc80;
+  }
