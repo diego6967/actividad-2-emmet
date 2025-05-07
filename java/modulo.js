@@ -5,3 +5,10 @@ const footer = '<p class="pie">&copy; 2025 Recetas de Cocina - Todos los derecho
 document.querySelector('header').innerHTML = header;
 document.querySelector('nav').innerHTML = nav;
 document.querySelector('footer').innerHTML = footer;
+
+  const toggleBtn = document.querySelector(".menu-toggle");
+  const navLinks = document.querySelector(".nav-links");
+
+  toggleBtn.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
